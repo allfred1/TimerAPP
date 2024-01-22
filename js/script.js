@@ -83,7 +83,7 @@ function Timer() {
       break;
   }
 
-  TimerState = setTimeout(() => Timer(), 1);
+  TimerState = setTimeout(() => Timer(), 1000);
 
   // } else  if (TimerState === true){
   //   TimerStartBTN.innerHTML = "START";
